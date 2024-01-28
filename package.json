@@ -1,7 +1,17 @@
 {
   "name": "@jagcruz/vite-boilerplate",
-  "private": true,
+  "description": "A Vite boilerplate with React, TypeScript, ESLint, Prettier, and more.",
   "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/jagcruz/vite-boilerplate#readme",
+  "repository": "github:jagcruz/vite-boilerplate",
+  "bugs": {
+    "url": "https://github.com/jagcruz/vite-boilerplate/issues"
+  },
+  "author": {
+    "name": "Jaime Alan Gutiérrez Cruz",
+    "url": "https://github.com/jagcruz"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
