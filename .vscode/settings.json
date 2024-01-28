@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [100],
+  "files.eol": "\n",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.test.ts, ${capture}.spec.ts",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts, ${capture}.test.js, ${capture}.spec.js",
+    "*.jsx": "${capture}.js, ${capture}.test.jsx",
+    "*.tsx": "${capture}.ts, ${capture}.test.tsx",
+    "vite.config.ts": "vitest.config.ts",
+    "tsconfig.json": "tsconfig.*.json, tsconfig.tsbuildinfo",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    ".env": ".env.*",
+    ".gitignore": ".gitkeep, .gitattributes",
+    ".prettierrc.*": ".prettierignore",
+    ".eslintrc.*": ".eslintignore"
+  }
+}
